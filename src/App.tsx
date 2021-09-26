@@ -1,11 +1,12 @@
 import React, { FC } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { StartPage } from './pages/';
+import { StartPage, AuthPage } from './pages/';
 
 const App: FC = () => {
     return (
         <BrowserRouter>
-            <Route path="/" component={StartPage} exact />
+            <Route path="/" component={AuthPage} exact />
+            <Route path="/home" component={StartPage} exact />
         </BrowserRouter>
     );
 };

@@ -1,0 +1,32 @@
+.authForm {
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #FFF;
+    position: absolute;
+    border-radius: 5px;
+    height: 200px;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+
+    &__header {
+        font-family: 'Roboto', sans-serif;
+        border-bottom: 2px solid;
+        padding: 10px;
+    }
+
+    &__body {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}
+
+.textField {
+    margin-bottom: 10px!important;
+}
+
+.checkboxLabel {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    display: block;
+}
