@@ -1,0 +1,36 @@
+.userInfo {
+    &__header {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+    &__item {
+        margin-bottom: 7px;
+    }
+}
+
+.userInfoItem {
+    align-items: center;
+    display: flex;
+    width: 50%;
+
+    &__entity {
+        width: 50%;
+    }
+}
+
+.updateUserBtn {
+    margin-top: 15px!important;
+}
+
+.backBtn {
+    text-decoration: none!important;
+    margin-bottom: 15px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+
+    &:hover {
+        color: blue;
+    }
+}
