@@ -1,20 +1,5 @@
-.header {
-    font-family: 'Roboto', sans-serif;
-    border-bottom: 2px solid;
-    background: #FFF;
-    font-size: 30px;
-    display: block;
-    padding: 10px;
-}
-
 .entitiesList {
-    background: #FFF;
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 10px;
-
     &__item {
-        font-family: 'Roboto', sans-serif;
         align-items: center;
         user-select: none;
         list-style: none;

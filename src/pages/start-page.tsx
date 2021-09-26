@@ -5,10 +5,10 @@ import styles from './start-page.module.scss';
 const StartPage: FC = () => {
     return (
         <div>
-            <h1 className={styles.header}>Панель администратора</h1>
+            <h1 className="pageHeader">Панель администратора</h1>
 
             <div className="container">
-                <div className={styles.entitiesList}>
+                <div className="pageBody">
                     <span className={styles.entitiesList__item}>
                         <Group classes={{root: styles.entitiesList__icon}} />
                         Пользователи
