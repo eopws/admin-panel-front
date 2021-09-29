@@ -75,7 +75,7 @@ const UsersPage = () => {
                                             <CrossIcon />
                                         }
                                     </TableCell>
-                                    <TableCell>{getRolesAsText(user.role)}</TableCell>
+                                    <TableCell>{user.role && getRolesAsText(user.role)}</TableCell>
                             </TableRow>
                         )}
                     </TableBody>

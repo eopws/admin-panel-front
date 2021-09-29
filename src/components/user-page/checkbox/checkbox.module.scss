@@ -1,0 +1,9 @@
+.userInfoItem {
+    align-items: center;
+    display: flex;
+    width: 50%;
+
+    &__entity {
+        width: 50%;
+    }
+}

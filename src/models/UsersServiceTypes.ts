@@ -1,5 +1,8 @@
-import { IUser } from './';
+import { IBan } from './';
 
-export interface GetAllResponse {
-    users: IUser[];
+export interface UpdateUserDto {
+    nickname?: string;
+    email?: string;
+    ban?: IBan | 'unban';
+    roles?: string[];
 }
